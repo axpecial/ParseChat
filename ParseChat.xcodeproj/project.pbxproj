@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54B4A3212044FD55005DA790 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B4A3202044FD55005DA790 /* ChatViewController.swift */; };
+		54B4A32320456D0A005DA790 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B4A32220456D0A005DA790 /* ChatCell.swift */; };
 		54B50386203E7B260054C08D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B50385203E7B260054C08D /* AppDelegate.swift */; };
 		54B50388203E7B260054C08D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B50387203E7B260054C08D /* LoginViewController.swift */; };
 		54B5038B203E7B260054C08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B50389203E7B260054C08D /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54B4A3202044FD55005DA790 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		54B4A32220456D0A005DA790 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		54B50382203E7B260054C08D /* ParseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B50385203E7B260054C08D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54B50387203E7B260054C08D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				54B50385203E7B260054C08D /* AppDelegate.swift */,
+				54B4A32220456D0A005DA790 /* ChatCell.swift */,
+				54B4A3202044FD55005DA790 /* ChatViewController.swift */,
 				54B50387203E7B260054C08D /* LoginViewController.swift */,
 				54B50389203E7B260054C08D /* Main.storyboard */,
 				54B5038C203E7B260054C08D /* Assets.xcassets */,
@@ -220,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54B50388203E7B260054C08D /* LoginViewController.swift in Sources */,
+				54B4A32320456D0A005DA790 /* ChatCell.swift in Sources */,
+				54B4A3212044FD55005DA790 /* ChatViewController.swift in Sources */,
 				54B50386203E7B260054C08D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
