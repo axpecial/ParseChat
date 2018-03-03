@@ -37,13 +37,15 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/rVWX0qi.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/sklDAwD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+It took me a while to understand how to use closures, queries, PFQuery and PFObject. With the help of Jamie Shi, I was able to get through most of my bugs, including one in which I forgot to set the module of the ChatViewController to ParseChat, so none of my linked IB outlets were recognized.
 
 ## License
 
